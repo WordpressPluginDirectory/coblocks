@@ -3,9 +3,9 @@ Author URI: https://www.godaddy.com
 Contributors: godaddy, richtabor, eherman24, jonathanbardo, jrtashjian, paranoia1906, fjarrett, olivierlafleur, jasonlemay, snovosel
 Tags: page builder, Gutenberg blocks, WordPress blocks, gutenberg, blocks
 Requires at least: 6.3
-Tested up to: 6.6
+Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 3.1.13
+Stable tag: 3.1.17
 License: GPL-2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -124,6 +124,14 @@ Developers can also apply minor style touch-ups to their themes if necessary. If
 CoBlocks is designed to support the last two major versions of WordPress that are currently released. If you're using one of these versions, you're all set to enjoy everything CoBlocks has to offer!
 
 == Changelog ==
+
+= 3.1.15 / 2025-04-09 =
+# Bug Fix
+* Prevent site editor crashing when altering the site design styles from within the CoBlocks Labs Site Design. [#2631](https://github.com/godaddy-wordpress/coblocks/pull/2631)
+
+= 3.1.14 / 2024-12-20 =
+# Bug Fix
+* Improve nonce handling and permissions in crop settings API. [#2624](https://github.com/godaddy-wordpress/coblocks/pull/2624)
 
 = 3.1.13 / 2024-07-25 =
 # Bug fix
